@@ -8,6 +8,8 @@ const Item = lazy(() => import('./Item'))
 const HeroSection = lazy(() => import('./HeroSection'))
 const Button = lazy(() => import('./Button'))
 const Main = lazy(() => import('./Main'))
+const Footer = lazy(() => import('./Footer'))
+const Span = lazy(() => import('./Span'))
 
 export {
     Header,
@@ -17,4 +19,6 @@ export {
     HeroSection,
     Button,
     Main,
+    Footer,
+    Span,
 }

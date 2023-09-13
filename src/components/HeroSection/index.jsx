@@ -6,7 +6,7 @@ import Div from '../Div'
 
 const HeroSection = () => {
     return (
-        <Div className='HeroSection relativey bg-hero-BgImg bg-cover h-[45rem] bg-center'>
+        <Div className='select-none HeroSection relativey bg-hero-BgImg bg-cover h-[45rem] bg-center'>
             <Div className="HeroInnerWrapper flex flex-col items-start absolute left-[44.188rem] top-[18.25rem] bg-[#FFF3E3] w-[40.188rem] h-[27.688rem] pt-[3.75rem] pl-[2.313rem] pb-[2.313rem] rounded-xl">
                 <Subtitle className='tracking-[0.188rem] leading-[1.5rem] font-semibold not-italic text-[1rem]'>
                     New Arrival

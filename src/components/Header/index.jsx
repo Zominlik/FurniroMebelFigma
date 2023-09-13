@@ -12,13 +12,13 @@ import Ul from '../Ul'
 
 const Header = () => {
     return (
-        <header className='select-none flex items-center justify-center gap-[19rem] py-[1.813rem]'>
+        <header className='select-none flex items-center justify-center gap-[19rem] py-[1.813rem] px-[6.25rem]'>
             <Ul className="headerItems">
                 <Item>
                     <Img image={FurniroLogo} ImgDesc='FurniroLogo' />
                 </Item>
             </Ul>
-            <Ul className="HeaderItemsLinks flex justify-center items-center gap-[4rem]">
+            <Ul className="HeaderItemsLinks flex justify-center items-center gap-[3rem]">
                 <Item>
                     <NavLink to='/home' className={({ isActive }) => `HeaderLink ${isActive ? 'text-pink-500 animate-pulse inline-block' : ''}`}>Home</NavLink>
                 </Item>
